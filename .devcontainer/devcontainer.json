@@ -1,0 +1,27 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+	"name": "tex-env",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+		"extensions": [
+		"ms-ceintl.vscode-language-pack-ja",
+		"github.vscode-github-actions",
+		"github.github-vscode-theme",
+		"github.vscode-pull-request-github",
+		"eamodio.gitlens",
+        "tialki.tex-preview",
+        "tomoki1207.pdf"
+		],
+		"settings": {
+			"workbench.colorTheme": "GitHub Dark Default"
+		}
+	 }
+	}
+}
