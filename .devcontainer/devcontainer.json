@@ -3,9 +3,7 @@
 {
 	"name": "tex-env",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	"image": "ghcr.io/dodolia907/tex-env:main",
 
 	// Configure tool-specific properties.
 	"customizations": {
